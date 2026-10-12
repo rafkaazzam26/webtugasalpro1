@@ -1,0 +1,9 @@
+[project]
+name = "dayflow"
+version = "1.0.0"
+dependencies = [
+    "Flask>=3.0,<4.0"
+]
+
+[tool.vercel]
+entrypoint = "webtugas:app"
