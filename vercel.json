@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "webtugas.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "webtugas.py"
+    }
+  ]
+}
