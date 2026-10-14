@@ -9,7 +9,7 @@ from datetime import date, datetime
 import calendar
 
 app = Flask(__name__)
-DB = Path(__file__).with_name("daily_planner.db")
+DB = Path("/tmp/daily_planner.db")
 
 CATEGORIES = ["Personal", "Work", "Study", "Health", "Family", "Hobby"]
 PRIORITIES = ["High", "Medium", "Low"]
